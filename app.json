@@ -1,7 +1,5 @@
 {
   "expo": {
-
-   
     "name": "BarberM",
     "slug": "BarberM",
     "version": "1.0.0",
@@ -9,13 +7,15 @@
     "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "permissions": [
       "CAMERA",
       "MEDIA_LIBRARY",
       "READ_EXTERNAL_STORAGE",
       "WRITE_EXTERNAL_STORAGE"
-
     ],
     "splash": {
       "image": "./assets/splash-icon.png",
@@ -23,16 +23,24 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "dd"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.constantino_j.BarberM",
+       "buildType": "apk"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "02e0d39e-398f-46dc-93f6-4a1620b6e0dd"
+      }
     }
   }
 }
