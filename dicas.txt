@@ -1,0 +1,8 @@
+Criar um novo android
+Resolver todas as instalacoes de doctor
+Se necessario instalar o ui-system o spash-screen
+Remover o google ads e adbmod
+fazer a depuracao usando adb logcat *E:
+olhar o gitignore
+olhar o package.json
+Teste tudo isso
