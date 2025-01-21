@@ -13,7 +13,11 @@ const carrosselImagens = [
     'https://th.bing.com/th/id/R.e69de46a916f866383deb43c4a4e2fe2?rik=mVwHsZPmfyJqdA&pid=ImgRaw&r=0',
     'https://th.bing.com/th/id/OIP.00zDhUdeLfOfbkJs4v9E_wAAAA?rs=1&pid=ImgDetMain',
     'https://th.bing.com/th/id/R.e69de46a916f866383deb43c4a4e2fe2?rik=mVwHsZPmfyJqdA&pid=ImgRaw&r=0',
-    'https://th.bing.com/th/id/OIP.EvzzVxe1FeVVc-4TVYGDYAHaGb?rs=1&pid=ImgDetMain'
+    'https://th.bing.com/th/id/OIP.EvzzVxe1FeVVc-4TVYGDYAHaGb?rs=1&pid=ImgDetMain',
+    'https://th.bing.com/th/id/R.4014bf32d2e96ee353ff66aece85a9f3?rik=7EqI3QTicFqRvg&pid=ImgRaw&r=0',
+    'https://th.bing.com/th/id/OIP.3_z2rXFmM8fiwzPXPAlwCAHaJQ?pid=ImgDet&w=474&h=592&rs=1',
+    'https://sl.bing.net/bW5pHi9wvSK',
+    
 ];
 
 export default function ListaProdutos() {
